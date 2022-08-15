@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Prompt:wght@300&display=swap');
 
 body{
     margin: 0px;
     padding: 0px;
     background-color: #000116;
+    align-items: center;
+}
+.container-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 .img-1{
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .img-1 img{
     width: 332px;
@@ -16,23 +28,57 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 40vh;
 }
 button{
     font-family: 'Prompt', sans-serif;
-    width: 35%;
+    color: #88D4E1;
+    width: 170px;
     margin-bottom: 25px;
-    background-color: #00ffff;
-    border: none;
-    border-radius: 5px;
-    border-radius: 5px;
-    border-top: #00adff 2px solid;
-    border-left: blue 2px solid;
-    border-right: blue 2px solid;
-    border-bottom: #5600e5 2px solid;
+    background-color: #000116;
+    border-radius: 15px;
+    border-top: #00ff13 2px solid;
+    border-left: #26a554 2px solid;
+    border-right: #26a554 2px solid;
+    border-bottom: #046a0a 2px solid;
+    box-shadow: 1px 2px 109px #26a554;
+    position: relative;
+}
+button:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    border-radius: 15px;
+    background: #88d4e126;
+    transition: all 0.3s ease;
+  } 
+button:hover:before {
+    color: #18f109;
+    height: 100%;
 }
 .img-2{
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .img-2 img{
     width: 332px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-button{
+        flex-direction: initial;
+        justify-content: space-evenly;
+        height: 40vh;
+        width: 100vw;
+    }
+    button{
+        width: 150px;
+        height: 42px;
+        margin-bottom: 0px;
+    }
 }
