@@ -1,5 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #00010D;
+    background-color: #000116;
+}
+.img-1{
+    width: 100vw;
+}
+.img-1 img{
+    width: 332px;
+}
+.container-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-family: 'Prompt', sans-serif;
+    width: 35%;
+    margin-bottom: 25px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-top: #00adff 2px solid;
+    border-left: blue 2px solid;
+    border-right: blue 2px solid;
+    border-bottom: #5600e5 2px solid;
+}
+.img-2{
+    width: 100vw;
+}
+.img-2 img{
+    width: 332px;
 }
