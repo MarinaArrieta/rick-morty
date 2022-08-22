@@ -40,7 +40,7 @@ button{
     border-top: #00ff13 2px solid;
     border-left: #26a554 2px solid;
     border-right: #26a554 2px solid;
-    border-bottom: #046a0a 2px solid;
+    border-bottom: #0bc7e7 2px solid;
     box-shadow: 1px 2px 109px #26a554;
     position: relative;
 }
@@ -56,8 +56,15 @@ button:before {
     transition: all 0.3s ease;
   } 
 button:hover:before {
-    color: #18f109;
     height: 100%;
+}
+button:hover{
+    color: #18f109;
+    font-weight: bold;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom: #18f109 2px solid;
 }
 .img-2{
     width: 100vw;
