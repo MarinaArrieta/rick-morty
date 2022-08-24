@@ -6,6 +6,8 @@ body{
     padding: 0px;
     background-color: #000116;
     align-items: center;
+    background-image: url("file:///C:/Users/Usuario/Videos/avalith/rick-morty/img/back-1.png");
+    opacity: 1;
 }
 .container-parent{
     display: flex;
@@ -54,7 +56,7 @@ button:before {
     border-radius: 15px;
     background: #88d4e126;
     transition: all 0.3s ease;
-  } 
+} 
 button:hover:before {
     height: 100%;
 }
